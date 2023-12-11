@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*UTILS*/
+
+:root{
+    --primary-color: #9792e4;
+    --secondary-color: #b5ddff;
+    --third-color: #0084fd;
+    --text-color: #5a6e7f;
+}
+
+/*HEADER*/
+
+#header{
+    height: 100px;
+    background-color: var(--third-color);
+}
+
+#header .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
