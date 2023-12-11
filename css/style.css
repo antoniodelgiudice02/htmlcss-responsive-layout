@@ -165,3 +165,18 @@
 #start .container *{
     margin: var(--main-margin) 0;
 }
+
+/*footer*/
+
+footer{
+    background-color: #333333;
+    height: 200px;
+}
+
+footer .container{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
