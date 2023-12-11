@@ -142,3 +142,14 @@
     padding: var(--card-padding);
     text-align: left;
 }
+
+/*ABOUT US*/
+
+#about-us .container{
+    height: 100%;
+    padding: 10%;
+}
+
+#about-us .container *{
+    margin: var(--main-margin) 0;
+}
