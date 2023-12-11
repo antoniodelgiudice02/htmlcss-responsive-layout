@@ -1,3 +1,44 @@
+@media screen and (min-width: 480px){
+  /*JUMBOTRON*/
+
+    #jumbotron .row{
+        justify-content: space-between;
+    }
+
+    #jumbotron .col:first-child {
+        width: calc(100% / 3*2 - 10px);
+      }
+
+    #jumbotron .col {
+        width: calc(100% / 3 - 10px);
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px){
 
     /*HEADER*/
