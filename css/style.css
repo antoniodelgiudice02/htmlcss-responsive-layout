@@ -30,6 +30,8 @@
     background-color: var(--fourth-color);
 }
 
+
+
 /*HEADER*/
 
 #header{
@@ -87,12 +89,25 @@
 }
 
 #strategy .card{
-    text-align: center;
     padding: var(--card-padding);
     margin: var(--main-margin);
-
 }
 
+#strategy>.container>.row>.col:last-child>.card{
+    text-align: center;
+}
+
+#strategy .card *{
+    margin-bottom: 30px;
+}
+
+#strategy .purple img{
+    width: 100%;
+}
+
+#strategy .white img{
+    width: 80%;
+}
 
 /*TESTIMONIALS*/
 

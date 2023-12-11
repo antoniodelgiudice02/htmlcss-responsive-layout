@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px){
+
+    /*JUMBOTRON*/
+
     #jumbotron .container{
         padding: 5% 20%;
     }
@@ -13,5 +16,21 @@
 
     #jumbotron .col {
         width: calc(100% / 3 - 10px);
+      }
+
+      /*STRATEGY*/
+
+      #strategy .container{
+        padding: 5% 25%;
+    }
+
+      #strategy .row{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+
+      #strategy>.container>.row>.col:last-child{
+        width: 80%;
       }
 }
