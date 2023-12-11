@@ -53,3 +53,33 @@
     text-align: center;
     padding: 10px;
 }
+
+/*STRATEGY*/
+
+#strategy{
+    background-color: var(--primary-color);
+}
+
+#strategy .container{
+    height: 100%;
+    padding: 10% 10%;
+}
+
+#strategy .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#strategy .col{
+    width: 100%;
+    margin: 10px 0;
+}
+
+#strategy .card{
+    text-align: center;
+    padding: 10px;
+}
+
+#strategy .white{
+    background-color: white;
+}
