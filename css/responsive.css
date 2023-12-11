@@ -54,5 +54,18 @@
         margin: auto;
       }
 
+        /*BENEFIT*/
+
+        #benefit .container{
+          padding: 5% 20%;
+        }
+
+        #benefit .row{
+          justify-content: space-between;
+        }
+
+        #benefit .col{
+          width: calc(100% / 3 - 10px);
+        }
 
 }
