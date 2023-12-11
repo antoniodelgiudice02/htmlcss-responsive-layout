@@ -15,7 +15,7 @@
     --third-color: #0084fd;
     --fourth-color: white;
     --text-color: #5a6e7f;
-    --card-padding: 10px;
+    --card-padding: 20px;
     --main-margin: 20px 0;
 }
 
@@ -70,9 +70,6 @@
 
 /*STRATEGY*/
 
-#strategy{
-    background-color: var(--primary-color);
-}
 
 #strategy .container{
     height: 100%;
@@ -112,9 +109,36 @@
 
 #testimonials .col{
     width: 100%;
+    margin: var(--main-margin);
+
 }
 
 #testimonials .card{
     margin: var(--main-margin);
     padding: var(--card-padding);
+}
+
+/*BENEFIT*/
+
+#benefit .container{
+    height: 100%;
+    padding: 10%;
+    text-align: center;
+}
+
+#benefit .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#benefit .col{
+    width: 100%;
+    margin: var(--main-margin);
+
+}
+
+#benefit .card{
+    margin: var(--main-margin);
+    padding: var(--card-padding);
+    text-align: left;
 }
