@@ -12,30 +12,57 @@
     #jumbotron .col {
         width: calc(100% / 3 - 10px);
       }
+
+      /*TESTIMONIALS*/
+      
+      #testimonials .card{
+        display: flex;
+        align-items: center;
+      }
+
+      #testimonials img{
+        width: 20%;
+        margin-right: auto;
+      }
+
+      #testimonials .text{
+        margin: auto;
+      }
+
+      /*BENEFIT*/
+
+      #benefit .row{
+        justify-content: space-between;
+      }
+
+      #benefit .col{
+        width: calc(100% / 2 - 10px);
+      }
+
+      /*ABOUT US*/
+
+      #about-us .row{
+        display: flex;
+        align-items: center;
+      }
+
+      #about-us .row>.col:first-child{
+        width: 80%;
+      }
+
+      #about-us .row>.col:last-child{
+        width: 20%;
+      }
+
+      #about-us .col *{
+        margin-bottom: 20px;
+      }
+
+      #about-us .row,
+      #about-us .col{
+        margin: 0;
+      }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
