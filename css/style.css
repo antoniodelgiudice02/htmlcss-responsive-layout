@@ -133,6 +133,13 @@
     padding: var(--card-padding);
 }
 
+#testimonials img{
+    aspect-ratio: 1;
+    width: 80%;
+}
+
+
+
 /*BENEFIT*/
 
 #benefit .container{

@@ -22,7 +22,7 @@
 
       #strategy .container{
         padding: 5% 25%;
-    }
+      }
 
       #strategy .row{
         flex-wrap: nowrap;
@@ -33,4 +33,26 @@
       #strategy>.container>.row>.col:last-child{
         width: 80%;
       }
+
+      /*TESTIMONIALS*/
+
+      #testimonials .container{
+        padding: 5% 20%;
+      }
+      
+      #testimonials .card{
+        display: flex;
+        align-items: center;
+      }
+
+      #testimonials img{
+        width: 20%;
+        margin-right: auto;
+      }
+
+      #testimonials .text{
+        margin: auto;
+      }
+
+
 }
