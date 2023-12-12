@@ -39,7 +39,7 @@ a{
 }
 
 .card{
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .center{
@@ -93,6 +93,7 @@ a{
 #jumbotron .card{
     background-color: var(--secondary-color);
     padding: var(--card-padding);
+    border-radius: 20px;
 }
 
 #jumbotron .container .row .col:first-child .card{
@@ -166,9 +167,6 @@ a{
 #strategy>.container>.row>.col:last-child>.card{
     text-align: center;
 }
-
-
-
 
 
 /*STYLE*/
@@ -252,10 +250,61 @@ a{
     padding: var(--card-padding);
 }
 
-#testimonials img{
-    aspect-ratio: 1;
-    width: 80%;
+
+/*STYLR*/
+
+#testimonials h3{
+    font-weight: 300;
 }
+
+#testimonials .title{
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    margin: 40px 0;
+}
+
+#testimonials .text p{
+    color: #111111;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: var(--main-margin);
+}
+
+#testimonials .img{
+
+    width: 80%;
+    aspect-ratio: 1;
+    line-height: 258.55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#testimonials img{
+    width: 160%;
+    vertical-align: middle;
+    object-position: -75px;
+}
+
+#testimonials .card .text{
+    color: var(--fourth-color);
+    font-size: 1.3rem;
+    margin: var(--main-margin);
+}
+
+#testimonials .fa-solid{
+    margin: 10px;
+    font-size: 1.8rem;
+}
+
+#testimonials .quote{
+    color: var(--fourth-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
 
 
 
