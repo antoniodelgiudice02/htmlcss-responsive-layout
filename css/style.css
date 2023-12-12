@@ -4,6 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+a{
+    color: inherit;
 }
 
 
@@ -15,8 +23,9 @@
     --third-color: #0084fd;
     --fourth-color: white;
     --text-color: #5a6e7f;
-    --card-padding: 20px;
+    --card-padding: 30px;
     --main-margin: 20px 0;
+    --title-font-size: 1.7rem;
 }
 
 
@@ -28,6 +37,14 @@
 
 .white{
     background-color: var(--fourth-color);
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.center{
+    text-align: center;
 }
 
 
@@ -45,6 +62,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
+}
+
+.fa-bars{
+    font-size: var(--title-font-size);
+    color: white;
+    cursor: pointer;
 }
 
 /*JUMBOTRON*/
@@ -66,8 +89,54 @@
 
 #jumbotron .card{
     background-color: var(--secondary-color);
-    text-align: center;
     padding: var(--card-padding);
+}
+
+#jumbotron .container .row .col:first-child .card{
+    padding-bottom: 0;
+
+}
+
+/*STYLE*/
+
+#jumbotron .title{
+    color: var(--third-color);
+    font-weight: bold;
+    font-size: var(--title-font-size);
+    margin: var(--main-margin);
+    margin-top: 0;
+}
+
+#jumbotron .text{
+    color: var(--text-color);
+    font-weight: 600;
+    margin: var(--main-margin);
+    margin-top: 0;
+    line-height: 2;
+}
+
+#jumbotron .button{
+    color: white;
+    background-color: #0084fd;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    width: 70%;
+    letter-spacing: 3px;
+    margin: var(--main-margin);
+    margin-top: 0;
+}
+
+#jumbotron img{
+    width: 100%;
+}
+
+#jumbotron .fa-solid{
+    color: #0084fd;
+    font-size: 4rem;
+    margin: var(--main-margin);
+    margin-top:0;
 }
 
 /*STRATEGY*/
