@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-weight: 600;
 
 }
 
@@ -45,6 +44,10 @@ a{
 
 .center{
     text-align: center;
+}
+
+.text{
+    line-height: 2;
 }
 
 
@@ -109,10 +112,10 @@ a{
 
 #jumbotron .text{
     color: var(--text-color);
-    font-weight: 600;
     margin: var(--main-margin);
     margin-top: 0;
-    line-height: 2;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 #jumbotron .button{
@@ -144,7 +147,7 @@ a{
 
 #strategy .container{
     height: 100%;
-    padding: 10%;
+    padding: 5%;
 }
 
 #strategy .row{
@@ -154,28 +157,75 @@ a{
 
 #strategy .col{
     width: 100%;
-    margin: var(--main-margin);
 }
 
 #strategy .card{
     padding: var(--card-padding);
-    margin: var(--main-margin);
 }
 
 #strategy>.container>.row>.col:last-child>.card{
     text-align: center;
 }
 
-#strategy .card *{
-    margin-bottom: 30px;
-}
+
+
+
+
+/*STYLE*/
 
 #strategy .purple img{
     width: 100%;
+    margin: var(--main-margin);
+    margin-top: 0;
+}
+
+#strategy .purple .title{
+    color: var(--fourth-color);
+    font-size: 1.5rem;
+    margin: 40px 0;
+}
+
+#strategy .purple .text > p{
+    color: var(--fourth-color);
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: var(--main-margin);
+}
+
+#strategy .card{
+    border-radius: 50px;
 }
 
 #strategy .white img{
     width: 80%;
+    margin: var(--main-margin);
+    margin-top: 0;
+}
+
+#strategy .white .title{
+    color: #111111;
+    font-size: 1.2rem;
+    margin: var(--main-margin);
+}
+
+#strategy .white .text p{
+    font-weight: 100;
+    margin: var(--main-margin);
+}
+
+#strategy .button{
+    line-height: 50px;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#strategi .fa-solid{
+    vertical-align: middle;
 }
 
 /*TESTIMONIALS*/
