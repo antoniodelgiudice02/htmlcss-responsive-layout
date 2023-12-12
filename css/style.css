@@ -331,6 +331,47 @@ a{
     margin: var(--main-margin);
     padding: var(--card-padding);
     text-align: left;
+    border-radius: 20px;
+}
+
+/*STYLE*/
+
+#benefit .title{
+    
+    color: var(--fourth-color);
+    font-size: 2.5rem;
+    margin: 40px 0;
+
+}
+
+#benefit .number{
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+#benefit .card .title{
+    color: var(--primary-color);
+    font-size: 2rem;
+
+}
+
+#benefit .card .text{
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: var(--main-margin);
+
+}
+
+#benefit .button{
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center; 
+    width: 50%;
+    letter-spacing: 3px;
+    font-weight: 500;
 }
 
 /*ABOUT US*/
