@@ -46,7 +46,7 @@ a{
     text-align: center;
 }
 
-.text{
+.text, p{
     line-height: 2;
 }
 
@@ -436,8 +436,64 @@ a{
     text-align: center;
 }
 
-#start .container *{
-    margin: var(--main-margin) 0;
+
+/*STYLE*/
+
+#start span{
+    color: var(--fourth-color);
+
+}
+
+#start h3{
+    color: var(--fourth-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#start h2{
+    color: #fdc15f;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+
+}
+
+#start p{
+    color: var(--fourth-color);
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+#start .button{
+    color: var(--primary-color);
+    background-color: var(--fourth-color);
+    padding: 20px;
+    border-radius: 35px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#start .fa-solid{
+    color: var(--fourth-color);
+    font-size: 0.4rem;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+#start .container div:last-child{
+    line-height: 20px;
+}
+
+#start a{
+    text-decoration: underline;
 }
 
 /*footer*/
@@ -445,6 +501,7 @@ a{
 footer{
     background-color: #333333;
     height: 200px;
+    padding: 0 var(--card-padding);
 }
 
 footer .container{
