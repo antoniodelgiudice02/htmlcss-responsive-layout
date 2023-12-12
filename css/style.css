@@ -47,7 +47,7 @@ a{
 }
 
 .text, p{
-    line-height: 2;
+    line-height: 1.5;
 }
 
 
@@ -94,6 +94,7 @@ a{
     background-color: var(--secondary-color);
     padding: var(--card-padding);
     border-radius: 20px;
+    height: 100%;
 }
 
 #jumbotron .container .row .col:first-child .card{
@@ -222,7 +223,7 @@ a{
     cursor: pointer;
 }
 
-#strategi .fa-solid{
+#strategy .fa-solid{
     vertical-align: middle;
 }
 
@@ -332,6 +333,10 @@ a{
     padding: var(--card-padding);
     text-align: left;
     border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /*STYLE*/
@@ -340,7 +345,6 @@ a{
     
     color: var(--fourth-color);
     font-size: 2.5rem;
-    margin: 40px 0;
 
 }
 

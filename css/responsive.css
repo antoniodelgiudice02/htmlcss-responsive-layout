@@ -20,11 +20,6 @@
         align-items: center;
       }
 
-      #testimonials img{
-        width: 20%;
-        margin-right: auto;
-      }
-
       #testimonials .text{
         margin: auto;
       }
@@ -73,11 +68,15 @@
     #header .container{
       padding: 0 20%;
     }
+    #header{
+      height: 50px;
+    }
+    
 
     /*JUMBOTRON*/
 
     #jumbotron .container{
-        padding: 5% 20%;
+        padding: 1% 20%;
     }
 
     #jumbotron .row{
@@ -88,14 +87,42 @@
         width: calc(100% / 3*2 - 10px);
       }
 
+    #jumbotron .col:first-child .card{
+      display: flex;
+    }
+
     #jumbotron .col {
         width: calc(100% / 3 - 10px);
       }
 
+      /*STYLE*/
+
+    #jumbotron .text{
+      font-size: 0.8rem;
+
+    }
+
+    #jumbotron .title{
+      font-size: 1rem;
+
+    }
+
+    #jumbotron .button{
+      padding: 10px;
+    }
+
+    #jumbotron .fa-solid{
+      font-size: 3rem;
+    }
+
+    #jumbotron .card{
+      padding-bottom: 5px;
+    }
+
       /*STRATEGY*/
 
       #strategy .container{
-        padding: 5% 25%;
+        padding: 3% 25%;
       }
 
       #strategy .row{
@@ -106,6 +133,24 @@
 
       #strategy>.container>.row>.col:last-child{
         width: 80%;
+      }
+
+      /*STYLE*/
+
+      #strategy .purple .title{
+        font-size: 1rem;
+      }
+
+      #strategy .purple .text > p{
+        font-size: 0.8rem;
+      }
+
+      #strategy .white .title{
+        font-size: 1rem;
+      }
+      #strategy .white .text > p{
+        font-size: 0.8rem;
+        font-weight: 500;
       }
 
       /*TESTIMONIALS*/
@@ -119,13 +164,45 @@
         align-items: center;
       }
 
-      #testimonials img{
-        width: 20%;
-        margin-right: auto;
-      }
 
       #testimonials .text{
         margin: auto;
+      }
+      
+
+      /*STYLE*/
+
+      #testimonials h3{
+        font-size: 1rem;
+    }
+
+    #testimonials .title{
+      font-size: 1.3rem;
+    }
+
+    #testimonials .text p{
+      font-size: 0.8rem;
+    }
+
+      #testimonials .card .text{
+        font-size: 0.8rem;
+        text-align: start;
+        margin-left: 40px;
+      }
+
+      #testimonials .fa-solid{
+        font-size: 1rem;
+      }
+
+      #testimonials .img{
+        margin-bottom: 0;
+        width: 30%;
+        line-height: 100%;
+      }
+
+      #testimonials img{
+        object-position: -40px;
+        vertical-align: middle;
       }
 
         /*BENEFIT*/
@@ -140,6 +217,25 @@
 
         #benefit .col{
           width: calc(100% / 3 - 10px);
+        }
+
+        /*STYLE*/
+
+        #benefit .number{
+          font-size: 2rem;
+        }
+
+        #benefit .card .title{
+          font-size: 1rem;
+        }
+
+        #benefit .card .text{
+          font-size: 0.8rem;
+        }
+
+        #benefit .button{
+          padding: 5px;
+          font-size: 0.8rem;
         }
 
         /*ABOUT US*/
