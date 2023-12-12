@@ -381,8 +381,51 @@ a{
     padding: 10%;
 }
 
-#about-us .container *{
-    margin: var(--main-margin) 0;
+/*STYLE*/
+
+#about-us .title{
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    margin: 40px 0;
+}
+
+#about-us .text{
+    color: #111111;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: var(--main-margin);
+}
+
+#about-us img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+#about-us .cit .title{
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin: 40px 0;
+
+}
+
+#about-us .button{
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#about-us .fa-solid{
+    color: var(--primary-color);
+    font-size: 4rem;
+    position: absolute;
+    left: 40%;
+}
+
+#about-us .cit div:first-child{
+    position: relative;
 }
 
 /*GET START*/
