@@ -316,7 +316,7 @@
         }
 
         #benefit .col{
-          width: calc(100% / 3 - 10px);
+          width: calc(100% / 3 - 20px);
         }
 
         /*STYLE*/
